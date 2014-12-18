@@ -9,6 +9,11 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
+            TestPush3Src.Popup popup = new TestPush3Src.Popup();
+            popup.Pop();
+            System.Windows.Forms.MessageBox.Show(popup.ToString());
+            System.Windows.Forms.MessageBox.Show(popup.GetType().ToString());
+            System.Windows.Forms.MessageBox.Show(popup.GetHashCode().ToString());
         }
     }
 }
