@@ -15,6 +15,7 @@ namespace TestPush3Src
         public Form1()
         {
             InitializeComponent();
+            System.Windows.Forms.MessageBox.Show("Test1");
         }
     }
 }
