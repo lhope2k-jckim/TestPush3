@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace TestPush3Src
 {
-    public class Popup
+    class Popup2
     {
         public void Pop()
         {
-            System.Windows.Forms.MessageBox.Show("Popup::Pop()");
-        }
-
-        public void Pop2()
-        {
-            System.Windows.Forms.MessageBox.Show("Popup::Pop2()");
+            System.Windows.Forms.MessageBox.Show("Popup2 :: Pop()");
         }
     }
 }
